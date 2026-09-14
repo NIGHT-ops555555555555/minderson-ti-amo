@@ -1,0 +1,110 @@
+/* Configurações Globais - Dark Mode */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container Principal */
+.container {
+    background-color: #1e1e1e;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+    border: 1px solid #333;
+}
+
+h1 {
+    color: #bb86fc;
+    margin-bottom: 20px;
+}
+
+/* Placar */
+.score-board {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    background-color: #2c2c2c;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #444;
+}
+
+#score {
+    color: #03dac6;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+/* Pergunta e Campo de Entrada */
+.question {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #444;
+    background-color: #2c2c2c;
+    color: #fff;
+    font-size: 1rem;
+    width: 60%;
+    outline: none;
+    text-align: center;
+}
+
+input[type="number"]:focus {
+    border-color: #bb86fc;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #bb86fc;
+    color: #000;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #9965f4;
+}
+
+/* Mensagens de Resultado */
+.result-message {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    min-height: 48px;
+}
+
+.errou {
+    color: #cf6679; /* Vermelho para erro */
+}
+
+.acertou {
+    color: #03dac6; /* Verde/Ciano para acerto */
+}
